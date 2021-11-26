@@ -7,7 +7,9 @@ The following is an introduction to the use of MLAgents.
 Create a virtual environment in Python and install the requirements by entering these command lines in your terminal :
 
 ``> python -m venv .env``
+
 ``> .env/Scripts/Activate.ps1``
+
 ``> pip install -r requirements.txt``
 
 ## Section 2 : Using the environment
