@@ -1,0 +1,30 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.7
+    code_path: code/with_wandb.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.6
+    start_time: 1637862862
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 16
+      4: 3.8.6
+      5: 0.12.7
+      8:
+      - 3
+      - 5
+policy_type:
+  desc: null
+  value: MlpPolicy
+total_timesteps:
+  desc: null
+  value: 25000

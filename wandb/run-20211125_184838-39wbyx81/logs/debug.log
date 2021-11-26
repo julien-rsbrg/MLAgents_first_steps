@@ -1,0 +1,142 @@
+2021-11-25 18:48:38,448 INFO    MainThread:12800 [wandb_setup.py:_flush():71] setting env: {}
+2021-11-25 18:48:38,448 INFO    MainThread:12800 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-11-25 18:48:38,450 INFO    MainThread:12800 [wandb_init.py:_log_setup():371] Logging user logs to D:\PROJETS\MLAgents_FirstSteps\wandb\run-20211125_184838-39wbyx81\logs\debug.log
+2021-11-25 18:48:38,460 INFO    MainThread:12800 [wandb_init.py:_log_setup():372] Logging internal logs to D:\PROJETS\MLAgents_FirstSteps\wandb\run-20211125_184838-39wbyx81\logs\debug-internal.log
+2021-11-25 18:48:38,461 INFO    MainThread:12800 [wandb_init.py:init():404] calling init triggers
+2021-11-25 18:48:38,461 INFO    MainThread:12800 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {'policy_type': 'MlpPolicy', 'total_timesteps': 25000}
+2021-11-25 18:48:38,462 INFO    MainThread:12800 [wandb_init.py:init():449] starting backend
+2021-11-25 18:48:38,462 INFO    MainThread:12800 [backend.py:_multiprocessing_setup():95] multiprocessing start_methods=spawn, using: spawn
+2021-11-25 18:48:38,470 INFO    MainThread:12800 [backend.py:ensure_launched():199] starting backend process...
+2021-11-25 18:48:38,558 INFO    MainThread:12800 [backend.py:ensure_launched():204] started backend process with pid: 27028
+2021-11-25 18:48:38,559 INFO    MainThread:12800 [wandb_init.py:init():458] backend started and connected
+2021-11-25 18:48:38,564 INFO    MainThread:12800 [wandb_init.py:init():519] updated telemetry
+2021-11-25 18:48:38,616 INFO    MainThread:12800 [wandb_init.py:init():549] communicating current version
+2021-11-25 18:48:39,528 INFO    MainThread:12800 [wandb_init.py:init():554] got version response 
+2021-11-25 18:48:39,528 INFO    MainThread:12800 [wandb_init.py:init():564] communicating run to backend with 30 second timeout
+2021-11-25 18:48:39,759 INFO    MainThread:12800 [wandb_init.py:init():592] starting run threads in backend
+2021-11-25 18:48:40,303 INFO    MainThread:12800 [wandb_run.py:_console_start():1816] atexit reg
+2021-11-25 18:48:40,305 INFO    MainThread:12800 [wandb_run.py:_redirect():1690] redirect: SettingsConsole.WRAP
+2021-11-25 18:48:40,305 INFO    MainThread:12800 [wandb_run.py:_redirect():1727] Wrapping output streams.
+2021-11-25 18:48:40,307 INFO    MainThread:12800 [wandb_run.py:_redirect():1751] Redirects installed.
+2021-11-25 18:48:40,307 INFO    MainThread:12800 [wandb_init.py:init():619] run started, returning control to user process
+2021-11-25 18:48:47,118 INFO    MainThread:12800 [wandb_run.py:_config_callback():962] config_cb None None {'algo': 'DQN', 'policy_class': "<class 'stable_baselines3.dqn.policies.DQNPolicy'>", 'device': 'cuda', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000002184A357AF0>', '_vec_normalize_env': 'None', 'verbose': 2, 'policy_kwargs': '{}', 'observation_space': 'Box([-inf -inf -inf -inf], [inf inf inf inf], (4,), float32)', 'action_space': 'Discrete(5)', 'n_envs': 1, 'num_timesteps': 0, '_total_timesteps': 10000, 'eval_env': 'None', 'seed': 'None', 'action_noise': 'None', 'start_time': 1637862527.0903463, 'policy': 'DQNPolicy(\n  (q_net): QNetwork(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (q_net): Sequential(\n      (0): Linear(in_features=4, out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=64, out_features=5, bias=True)\n    )\n  )\n  (q_net_target): QNetwork(\n    (features_extractor): FlattenExtractor(\n      (flatten): Flatten(start_dim=1, end_dim=-1)\n    )\n    (q_net): Sequential(\n      (0): Linear(in_features=4, out_features=64, bias=True)\n      (1): ReLU()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): ReLU()\n      (4): Linear(in_features=64, out_features=5, bias=True)\n    )\n  )\n)', 'learning_rate': 0.0001, 'tensorboard_log': 'None', 'lr_schedule': '<function constant_fn.<locals>.func at 0x000002184A367040>', '_last_obs': '[[ 0.         1.        -1.6052659  0.5      ]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_logger': '<stable_baselines3.common.logger.Logger object at 0x000002184A357FA0>', '_custom_logger': 'False', 'buffer_size': 1000000, 'batch_size': 32, 'learning_starts': 50000, 'tau': 1.0, 'gamma': 0.99, 'gradient_steps': 1, 'optimize_memory_usage': 'False', 'replay_buffer_class': "<class 'stable_baselines3.common.buffers.ReplayBuffer'>", 'replay_buffer_kwargs': '{}', '_episode_storage': 'None', 'remove_time_limit_termination': 'False', 'train_freq': "TrainFreq(frequency=4, unit=<TrainFrequencyUnit.STEP: 'step'>)", 'actor': 'None', 'replay_buffer': '<stable_baselines3.common.buffers.ReplayBuffer object at 0x000002184A357A60>', 'use_sde_at_warmup': 'False', 'exploration_initial_eps': 1.0, 'exploration_final_eps': 0.05, 'exploration_fraction': 0.1, 'target_update_interval': 10000, 'max_grad_norm': 10, 'exploration_rate': 0.0, 'exploration_schedule': '<function get_linear_fn.<locals>.func at 0x000002184A356CA0>', 'q_net': 'QNetwork(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (q_net): Sequential(\n    (0): Linear(in_features=4, out_features=64, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=64, out_features=5, bias=True)\n  )\n)', 'q_net_target': 'QNetwork(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (q_net): Sequential(\n    (0): Linear(in_features=4, out_features=64, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=64, out_features=64, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=64, out_features=5, bias=True)\n  )\n)'}
+2021-11-25 18:49:37,236 INFO    MainThread:12800 [wandb_run.py:finish():1463] finishing run raffael/unity_test/39wbyx81
+2021-11-25 18:49:37,236 INFO    MainThread:12800 [wandb_run.py:_atexit_cleanup():1786] got exitcode: 0
+2021-11-25 18:49:37,236 INFO    MainThread:12800 [wandb_run.py:_restore():1758] restore
+2021-11-25 18:49:38,121 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 2062
+  total_bytes: 2062
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,361 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 1
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 2062
+  total_bytes: 2062
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,467 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 2062
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,575 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 8684
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,682 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,792 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:38,901 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:39,010 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:39,118 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:39,402 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+
+2021-11-25 18:49:39,808 INFO    MainThread:12800 [wandb_run.py:_wait_for_finish():1916] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  other_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 12289
+  total_bytes: 12289
+  deduped_bytes: 1252
+}
+local_info {
+}
+
+2021-11-25 18:49:40,926 INFO    MainThread:12800 [wandb_run.py:_append_files():2184] logging synced files

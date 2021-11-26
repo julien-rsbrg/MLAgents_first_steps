@@ -1,0 +1,10 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))

@@ -1,0 +1,53 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 394       |
+|    ep_rew_mean      | -9.51e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 4         |
+|    fps              | 195       |
+|    time_elapsed     | 8         |
+|    total_timesteps  | 1574      |
+-----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 644       |
+|    ep_rew_mean      | -1.47e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 8         |
+|    fps              | 198       |
+|    time_elapsed     | 25        |
+|    total_timesteps  | 5153      |
+-----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 629       |
+|    ep_rew_mean      | -1.43e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 12        |
+|    fps              | 198       |
+|    time_elapsed     | 37        |
+|    total_timesteps  | 7548      |
+-----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 562       |
+|    ep_rew_mean      | -1.23e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 16        |
+|    fps              | 199       |
+|    time_elapsed     | 45        |
+|    total_timesteps  | 8985      |
+-----------------------------------

@@ -1,0 +1,43 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 494       |
+|    ep_rew_mean      | -1.08e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 4         |
+|    fps              | 196       |
+|    time_elapsed     | 10        |
+|    total_timesteps  | 1978      |
+-----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 582      |
+|    ep_rew_mean      | -1.1e+04 |
+|    exploration_rate | 0.05     |
+| time/               |          |
+|    episodes         | 8        |
+|    fps              | 198      |
+|    time_elapsed     | 23       |
+|    total_timesteps  | 4653     |
+----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 632       |
+|    ep_rew_mean      | -1.16e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 12        |
+|    fps              | 199       |
+|    time_elapsed     | 38        |
+|    total_timesteps  | 7578      |
+-----------------------------------

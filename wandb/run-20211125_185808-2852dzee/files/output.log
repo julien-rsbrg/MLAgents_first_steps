@@ -1,0 +1,64 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 575       |
+|    ep_rew_mean      | -1.03e+04 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 4         |
+|    fps              | 197       |
+|    time_elapsed     | 11        |
+|    total_timesteps  | 2300      |
+-----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 582      |
+|    ep_rew_mean      | -1.2e+04 |
+|    exploration_rate | 0.05     |
+| time/               |          |
+|    episodes         | 8        |
+|    fps              | 198      |
+|    time_elapsed     | 23       |
+|    total_timesteps  | 4657     |
+----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 477       |
+|    ep_rew_mean      | -9.13e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 12        |
+|    fps              | 198       |
+|    time_elapsed     | 28        |
+|    total_timesteps  | 5719      |
+-----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 413       |
+|    ep_rew_mean      | -8.17e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 16        |
+|    fps              | 199       |
+|    time_elapsed     | 33        |
+|    total_timesteps  | 6608      |
+-----------------------------------
+-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 406       |
+|    ep_rew_mean      | -7.88e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 20        |
+|    fps              | 199       |
+|    time_elapsed     | 40        |
+|    total_timesteps  | 8125      |
+-----------------------------------

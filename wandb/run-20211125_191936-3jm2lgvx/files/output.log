@@ -1,0 +1,25 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+Traceback (most recent call last):
+  File "d:/PROJETS/MLAgents_FirstSteps/with_wandb.py", line 21, in <module>
+    agent = DQN('MlpPolicy', env, verbose=verbose)
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\dqn\dqn.py", line 128, in __init__
+    self._setup_model()
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\dqn\dqn.py", line 131, in _setup_model
+    super(DQN, self)._setup_model()
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 212, in _setup_model
+    self.replay_buffer = self.replay_buffer_class(
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\buffers.py", line 182, in __init__
+    super(ReplayBuffer, self).__init__(buffer_size, observation_space, action_space, device, n_envs=n_envs)
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\buffers.py", line 49, in __init__
+    self.obs_shape = get_obs_shape(observation_space)
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\preprocessing.py", line 158, in get_obs_shape
+    raise NotImplementedError(f"{observation_space} observation space is not supported")
+NotImplementedError: Tuple(Box([-inf -inf -inf -inf], [inf inf inf inf], (4,), float32)) observation space is not supported

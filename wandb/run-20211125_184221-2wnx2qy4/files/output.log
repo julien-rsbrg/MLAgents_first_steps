@@ -1,0 +1,30 @@
+
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 1.9.1-preview and communication version 1.5.0
+[INFO] Connected new brain: My Behavior?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cuda device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\gym\logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+Traceback (most recent call last):
+  File "d:/PROJETS/MLAgents_FirstSteps/with_wandb.py", line 21, in <module>
+    agent.learn(10000, callback=WandbCallback)
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\dqn\dqn.py", line 241, in learn
+    return super(DQN, self).learn(
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 352, in learn
+    rollout = self.collect_rollouts(
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 580, in collect_rollouts
+    if callback.on_step() is False:
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\callbacks.py", line 88, in on_step
+    return self._on_step()
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\stable_baselines3\common\callbacks.py", line 264, in _on_step
+    return self.callback(self.locals, self.globals)
+  File "D:\PROJETS\MLAgents_FirstSteps\.env\lib\site-packages\wandb\integration\sb3\sb3.py", line 91, in __init__
+    os.makedirs(self.model_save_path, exist_ok=True)
+  File "C:\Users\raffa\AppData\Local\Programs\Python\Python38\lib\os.py", line 208, in makedirs
+    head, tail = path.split(name)
+  File "C:\Users\raffa\AppData\Local\Programs\Python\Python38\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not dict
