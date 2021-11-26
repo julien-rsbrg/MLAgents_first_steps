@@ -19,7 +19,7 @@ Firstly, import the project *Tutorial* in Unity Hub.
 ![](/resources/1.png)
 ![](/resources/2.png)
 
-Then run this command in your terminal :
+Then run this command in your terminal:
 ``
 > mlagents-learn.exe --run-id=0
 ``
@@ -29,7 +29,7 @@ When a message indicates that the terminal is listening to the game, please laun
 
 That is it ! Now you can run an agent on a Unity game !
 
-If you want to restart a run, you can either :
+If you want to restart a run, you can either:
 * use ``mlagents-learn.exe --run-id=x`` with a different id
 * use ``mlagents-learn.exe --run-id=0 --force`` to restart agent 0 (will not remember what has been learned)
 * use ``mlagents-learn.exe --run-id=0 --resume`` will resume the training
