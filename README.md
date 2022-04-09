@@ -1,4 +1,4 @@
-# MLAgents_FirstSteps
+# MLAgents first steps
 
 The following is an introduction to the use of MLAgents.
 
